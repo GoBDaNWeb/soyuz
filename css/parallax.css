@@ -1,0 +1,25 @@
+#home_page_wrapper .manufacturer .manufacturer_item_img,
+.fields_item_img_child  {
+    transform-style: preserve-3d;
+    backface-visibility: visible;
+    perspective: 1px;
+    overflow: hidden;
+    height: 100%;
+}
+
+
+#home_page_wrapper .manufacturer .manufacturer_item_second img,
+.fields_item_img_child img{
+    position: absolute;
+    object-fit: contain;
+    display: block;
+    top: 0;
+    left: -50px;
+    right: -50px;
+    width: auto;
+    height: 120%;
+    transform-style: preserve-3d;
+    transform-origin: center;
+    transform: translateZ(-2px) scale(2.8);
+    transition: top 0.5s ease;  
+} 
